@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true,
+    "module": "node16",
+    "moduleResolution": "node16",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "target": "es2020",
+    "types": ["vite/client"]
+  }
+}
