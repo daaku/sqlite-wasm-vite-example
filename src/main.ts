@@ -11,3 +11,8 @@ document.querySelector('[data-run]')?.addEventListener(
   'click',
   () => worker.postMessage({}),
 )
+
+document.querySelector('[data-clear]')?.addEventListener(
+  'click',
+  () => document.querySelectorAll('pre').forEach(e => e.remove()),
+)
