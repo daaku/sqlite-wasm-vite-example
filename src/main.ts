@@ -6,3 +6,8 @@ worker.onmessage = ev => {
   pre.innerText = JSON.stringify(ev.data, null, 2)
   document.body.appendChild(pre)
 }
+
+document.querySelector('[data-run]')?.addEventListener(
+  'click',
+  () => worker.postMessage({}),
+)

@@ -40,3 +40,5 @@ const run = async () => {
 }
 
 run()
+
+self.addEventListener('message', () => run())
