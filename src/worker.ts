@@ -5,6 +5,7 @@ const NAMES = ['yoda', 'luke', 'leia', 'vadar']
 const run = async () => {
   const log = (...args: any[]) => console.log(...args)
   const error = (...args: any[]) => console.error(...args)
+  // @ts-expect-error ignore the unsupported but real arguments
   const sqlite3 = await sqlite3InitModule({
     print: log,
     printErr: error,

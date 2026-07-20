@@ -14,11 +14,11 @@
     "trailingComma": "all"
   },
   "devDependencies": {
-    "@types/node": "^24.8.1",
-    "typescript": "^5.9.3",
-    "vite": "^7.1.10"
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5"
   },
   "dependencies": {
-    "@sqlite.org/sqlite-wasm": "^3.50.4-build1"
+    "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
